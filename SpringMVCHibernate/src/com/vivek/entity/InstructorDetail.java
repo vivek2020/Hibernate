@@ -4,6 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -15,6 +16,10 @@ public class InstructorDetail {
 	private int instructorDetailId;
 	private String qualification;
 	private String subject;
+	@OneToOne(mappedBy="instructordetail")
+	private Instructor instructor;
+	public InstructorDetail() {}
+	
 	
 	public InstructorDetail(String qualification,String subject)
 	{
@@ -32,6 +37,16 @@ public class InstructorDetail {
 
 	public String getSubject() {
 		return subject;
+	}
+
+
+	public Instructor getInstructor() {
+		return instructor;
+	}
+
+
+	public void setInstructor(Instructor instructor) {
+		this.instructor = instructor;
 	}
 	
 	

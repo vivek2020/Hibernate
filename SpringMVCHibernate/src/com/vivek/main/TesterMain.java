@@ -12,15 +12,22 @@ public class TesterMain {
 
 	public static void main(String[] args) {
 	
-		InstructorDetail instructordetail=new InstructorDetail("MS","Data Science");
-		Instructor instructor=new Instructor("John","Indiana",instructordetail);
+	//	InstructorDetail instructordetail=new InstructorDetail("MS","Data Science");
+	//	Instructor instructor=new Instructor("John","Indiana",instructordetail);
 		
        AnnotationConfiguration configuration=new AnnotationConfiguration();
 		configuration.configure("hibernateconfig.xml");
 		SessionFactory sessionfactory=configuration.buildSessionFactory();
 		Session session=sessionfactory.openSession();
 		 Transaction tc=session.beginTransaction();
-		 session.persist(instructor);
+	//	 session.persist(instructor);
+		 
+		 Instructor instructor= (Instructor)session.load(Instructor.class,1);
+		 System.out.println(instructor.getInstructordetail().getQualification());
+		 
+		 InstructorDetail instructordetail=(InstructorDetail)session.load(InstructorDetail.class,1);
+		 System.out.println(instructordetail.getInstructor().getName());
+		 
 		 tc.commit();
 		 session.close();
 
