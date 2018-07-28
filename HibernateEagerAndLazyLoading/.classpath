@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/Universal Folder/Java/Hibernate/hibernatejar/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/Universal Folder/Java/Hibernate/hibernatejar/asm.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/Universal Folder/Java/Hibernate/hibernatejar/asm-attrs.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/Universal Folder/Java/Hibernate/hibernatejar/cglib-2.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/Universal Folder/Java/Hibernate/hibernatejar/commons-collections-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/Universal Folder/Java/Hibernate/hibernatejar/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/Universal Folder/Java/Hibernate/hibernatejar/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/Universal Folder/Java/Hibernate/hibernatejar/ejb3-persistence.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/Universal Folder/Java/Hibernate/hibernatejar/hibernate3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/Universal Folder/Java/Hibernate/hibernatejar/hibernate-annotations.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/Universal Folder/Java/Hibernate/hibernatejar/hibernate-commons-annotations.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/Universal Folder/Java/Hibernate/hibernatejar/hibernate-validator.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/Universal Folder/Java/Hibernate/hibernatejar/mysql-connector-java-5.1.18-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/Universal Folder/Java/Hibernate/hibernatejar/jta.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
